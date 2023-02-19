@@ -1,6 +1,7 @@
+import type { NextApiRequest, NextApiResponse } from "next"
 import connect from "../../lib/mongodb"
 import User from "../../models/userSchema"
-import type { NextApiRequest, NextApiResponse } from "next"
+
 import jwt from "jsonwebtoken"
 
 connect()

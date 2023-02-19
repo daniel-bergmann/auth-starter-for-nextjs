@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 //
-// // Defining a Schema for our User model
+// // Defining a Schema for the User model
 //
 
 const userSchema = new mongoose.Schema({

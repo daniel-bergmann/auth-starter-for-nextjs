@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (token) {
       setLoggedIn(true)
-    } else {
+    } else if (!token) {
       setLoggedIn(false)
     }
   }, [token])

@@ -1,1 +1,1 @@
-Auth template
+Auth starter
